@@ -7,11 +7,11 @@ import { LinkContainer } from "react-router-bootstrap"
 const Header = () => {
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar bg='light' variant='light' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>
-              OnA<span className='text-primary'>Bender</span>
+              OnA<span className='text-warning'>Bender</span>
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
